@@ -10,4 +10,19 @@ describe("String#pal") do
     expect('Racecar'.pal()).to(eq('Yes'))
   end
 
+  it("Takes input from the user and converts it to lowercase. then returns yes.") do
+    expect('Racecar'.pal()).to(eq('Yes'))
+  end
+
+  it("Takes input from the user and converts it to lowercase. then returns yes.") do
+    expect('Hello world'.pal()).to(eq('No'))
+  end
+
+  it("Takes input from the user and converts it to lowercase. then returns yes.") do
+    expect('HCTCDEEDCBAH'.pal()).to(eq('No'))
+  end
+
+  it("Takes input from the user and converts it to lowercase. then returns yes.") do
+    expect('HABCDEfEDCBAH'.pal()).to(eq('Yes'))
+  end
 end
