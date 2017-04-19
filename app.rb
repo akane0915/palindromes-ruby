@@ -1,7 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
 require('rspec')
-require('pry')
 require('./lib/palindromes')
 also_reload('lib/**/*.rb')
 
