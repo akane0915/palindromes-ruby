@@ -1,7 +1,7 @@
 class String
   define_method(:pal) do
     user_input = self.downcase()
-    letter_array = user_input.split("")
+    letter_array = user_input.delete(" ").split("")
     number = (letter_array.length()/2).floor()
 
     output = "Yes"

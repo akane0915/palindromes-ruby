@@ -25,4 +25,8 @@ describe("String#pal") do
   it("Takes input from the user and converts it to lowercase. then returns yes.") do
     expect('HABCDEfEDCBAH'.pal()).to(eq('Yes'))
   end
+
+  it("Takes input from the user and converts it to lowercase. then returns yes.") do
+    expect('Sore was I ere I saw Ero s'.pal()).to(eq('Yes'))
+  end
 end
